@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Date and Time</title>
+    <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<style type="text/css">
+		.container {
+			width: 50%;
+			border: 1px solid black;
+			padding: 15px;
+		}
+	</style>
+  </head>
+  <body>
+  	<div class="container">
+		<h1>Submitted Info</h1>
+		<p>Name: <%= @name %></p>
+		<p>Dojo Location: <%= @location %></p>
+		<p>Favorite Language: <%= @language %></p>
+		<p>Comment: <%= @comment %></p>
+		<a href="/" class="btn btn-info pull-right">Go Back</a>
+	</div>
+  </body>
+</html>
